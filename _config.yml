@@ -13,14 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+title: "Victor Collins Oppon"
+email: ""
+description: >-
+  Data Scientist | AI Strategist | Chartered Accountant (FCCA) | MSc Data Science | Specialising in Machine Learning, NLP, Predictive Analytics, and Intelligent Automation across Finance, Healthcare, Education, and Public Policy.
+twitter_username: ""
+github_username: victoropp
 minimal_mistakes_skin: default
 search: true
 
@@ -31,8 +29,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: Europe/London
 include:
   - _pages
 
@@ -58,34 +55,36 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Victor Collins Oppon"
+  avatar : "/assets/images/profile.jpg"  # Optional: upload to assets/images
+  bio    : "Chartered Accountant turned Data Scientist. MSc Data Science | FCCA | Python | ML | NLP | MATLAB | Dashboards"
+  location: "United Kingdom"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/victoropp"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/victor-collins-oppon-fcca-mba-bsc-01541019/"
+    - label: "Kaggle"
+      icon: "fab fa-fw fa-kaggle"
+      url: "https://www.kaggle.com/victoropp"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:victoropp@gmail.com"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/victoropp"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/victor-collins-oppon-fcca-mba-bsc-01541019/"
+    - label: "Kaggle"
+      icon: "fab fa-fw fa-kaggle"
+      url: "https://www.kaggle.com/victoropp"
+
 
 defaults:
   # _posts
