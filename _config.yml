@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: "Victor Collins Oppon"
-email: ""
+email: "victoropp@gmail.com"
 description: >-
   Data Scientist | AI Strategist | Chartered Accountant (FCCA) | MSc Data Science | Specialising in Machine Learning, NLP, Predictive Analytics, and Intelligent Automation across Finance, Healthcare, Education, and Public Policy.
 twitter_username: ""
@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "Victor Collins Oppon"
-  avatar : "/assets/images/profile.jpg"  # Optional: upload to assets/images
+ # avatar : "/assets/images/profile.jpg"  # Optional: upload to assets/images
   bio    : "Chartered Accountant turned Data Scientist. MSc Data Science | FCCA | Python | ML | NLP | MATLAB | Dashboards"
   location: "United Kingdom"
   links:
