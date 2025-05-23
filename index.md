@@ -5,7 +5,7 @@ title: "Welcome to My Data Science Portfolio"
 header:
   overlay_color: "#000"
   overlay_filter: "0.4"
-  overlay_image: /assets/images/banner.jpg  # Optional banner (upload your own or remove this line)
+  overlay_image: /assets/images/banner.png
   actions:
     - label: "View My Projects"
       url: "/projects/"
