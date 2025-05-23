@@ -48,5 +48,7 @@ I aim to be at the intersection of **finance**, **AI**, and **global development
 
 I'm always open to collaboration, consulting, and new opportunities.  
 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/victor-collins-oppon-fcca-mba-bsc-01541019/) or email me at victoropp@gmail.com.
+[Download My CV (PDF)](/assets/files/Victor_Collins_Oppon_CV.pdf)
+
 
 > _“Always learning. Always building. Focused on impact.”_
