@@ -14,84 +14,80 @@ header:
     - label: "Read My Blog"
       url: "/blog/"
 excerpt: >
-  Bridging Finance and Data Science — building intelligent, automated solutions that solve real-world challenges in business, healthcare, education, and public service.
+  Bridging Finance and Data Science — building intelligent, automated solutions that solve real-world challenges across industries.
 ---
 
-##  Who I Am
+## About Me
 
-I’m Victor Collins Oppon — a Chartered Accountant with 15+ years of professional experience, now reimagining solutions through AI, machine learning, and data-driven technologies.
-
-I'm passionate about turning complex data into actionable insights using modern tools like Python, MATLAB, Altair, and NLP models. With an MSc in Data Science, I blend domain knowledge with technical depth to drive innovation across finance, health, agriculture, governance, and beyond.
-
----
-
-## Mission Statement
-### I help bridge the gap between technical innovation and practical application — empowering organizations to harness data for clarity, efficiency, and growth.
+I’m **Victor Collins Oppon**, a Chartered Accountant with over 15 years of experience, now leading innovative solutions as a Data Scientist. I build intelligent systems that merge financial logic with machine learning, AI, and automation to create real-world impact across business, government, education, and healthcare.
 
 ---
 
 ## What I Do
 
-- Design and implement machine learning models for real-world problem solving  
-- Automate complex workflows and data-driven decision systems  
-- Build intuitive, interactive dashboards and visualizations for insights and storytelling  
-- Apply Natural Language Processing (NLP) for classification, sentiment analysis, and content understanding  
-- Consult on AI adoption, digital transformation, and intelligent automation across domains
+- Develop and deploy machine learning models for classification, forecasting, and anomaly detection  
+- Automate workflows and analytical reporting using Python, MATLAB, and Streamlit  
+- Build modern dashboards and storytelling visuals using Altair and Power BI  
+- Apply NLP for classification, sentiment analysis, and topic extraction  
+- Consult on digital transformation, RegTech, and intelligent decision systems
 
 ---
 
 ## Who I Help
 
-- Business leaders seeking to integrate data-driven strategies into their operations  
-- Organizations aiming to automate reporting, decision-making, and performance tracking  
-- Startups and SMEs looking to build intelligent systems from the ground up  
-- Research teams and academic projects requiring applied machine learning expertise  
-- Non-technical stakeholders who need clear, actionable insights from complex data
-  
----
-## Industries I Work In
+- Business leaders driving data transformation initiatives  
+- SMEs and startups integrating AI from the ground up  
+- Researchers applying machine learning to real-world domains  
+- Governments and NGOs optimizing public services  
+- Professionals needing actionable insights from complex data
 
-- Technology & Software Development  
+---
+
+## Industries Served
+
 - Financial Services & Accounting  
 - Education & Academic Research  
-- E-commerce & Retail Analytics  
-- Public Sector & Social Impact Projects  
-- Healthcare & Medical Data Applications (NLP and analytics)  
-- Startups and Innovation Labs across domains
-- All other industries
-  
----
-
-##  Featured Project
-
-**[Spam Detection in MATLAB – End-to-End ML Pipeline](https://github.com/victoropp/naive-bayes-spam-detection)**  
-Built an intelligent spam classifier using Naive Bayes and hyperparameter tuning. Included model deployment, ROC evaluation, and comparison with logistic regression.  
-➡ Also published on [Kaggle](https://www.kaggle.com/code/victoropp/spam-detection-in-matlab-naive-bayes-classifier) and [LinkedIn](https://www.linkedin.com/pulse/my-first-end-to-end-spam-detection-project-matlab-victor-collins-gqoaf/)
+- Technology & Software Development  
+- Retail & E-commerce Analytics  
+- Healthcare & Medical NLP  
+- Governance, Compliance & Public Policy  
+- Startups and Innovation Labs
 
 ---
 
-##  Let’s Connect
+## Featured Project
+
+### [Spam Detection in MATLAB](https://github.com/victoropp/naive-bayes-spam-detection)
+A full ML pipeline using Naive Bayes on the UCI Spambase dataset. Includes:
+- Feature pruning & hyperparameter tuning  
+- Model evaluation (ROC, AUC, F1 Score)  
+- Deployment with `saveLearnerForCoder`  
+- [Kaggle Notebook](https://www.kaggle.com/code/victoropp/spam-detection-in-matlab-naive-bayes-classifier)  
+- [LinkedIn Article](https://www.linkedin.com/pulse/my-first-end-to-end-spam-detection-project-matlab-victor-collins-gqoaf/)
+
+---
+
+## 📬 Join the Mailing List
+
+Stay ahead with monthly updates on Data Science projects, real-world case studies, career tips, and tools you can use.
+
+<div id="newsletter" style="margin-top: 2rem; padding: 2rem; background-color: #f0f4f8; border-radius: 10px; border-left: 5px solid #5e4b8b;">
+  <h3 style="margin-bottom: 0.5rem; color: #2c3e50;">Stay Updated — Free Data Science Insights</h3>
+  <p style="margin-bottom: 1rem; color: #34495e;">
+    Subscribe to receive exclusive content, tutorials, career tips, and project walk-throughs directly in your inbox.
+  </p>
+  <script async src="https://eocampaign1.com/form/e178104e-38a9-11f0-8187-33a20bfb998a.js" data-form="e178104e-38a9-11f0-8187-33a20bfb998a"></script>
+</div>
+
+---
+
+## Let’s Connect
 
 📧 victoropp@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/victor-collins-oppon-fcca-mba-bsc-01541019/)  
 📊 [GitHub](https://github.com/victoropp)  
 📘 [Kaggle](https://www.kaggle.com/victoropp)
 
-### Subscribe to My Blog
+---
 
-<a href="https://feedly.com/i/subscription/feed/https://victoropp.github.io/feed.xml" target="_blank">
-  <img src="https://s3.feedly.com/img/follows/feedly-follow-rectangle-flat-small_2x.png" width="160" alt="Follow in Feedly">
-</a>
-
-
-> _"Always learning. Always building."_
->
-> <!-- Newsletter Signup (EmailOctopus Embedded Form) -->
-<div id="newsletter" style="margin-top: 3rem; padding: 2rem; background-color: #f9f9f9; border-radius: 8px;">
-  <h2 style="margin-bottom: 0.5rem;">📬 Stay Updated</h2>
-  <p style="margin-bottom: 1rem;">
-    Subscribe to receive hands-on Data Science projects, tutorials, and AI insights delivered straight to your inbox.
-  </p>
-  <script async src="https://eocampaign1.com/form/e178104e-38a9-11f0-8187-33a20bfb998a.js" data-form="e178104e-38a9-11f0-8187-33a20bfb998a"></script>
-</div>
-
+> _"Always learning. Always building. Always sharing."_
