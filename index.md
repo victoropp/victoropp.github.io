@@ -81,8 +81,5 @@ Built an intelligent spam classifier using Naive Bayes and hyperparameter tuning
 
 [Follow on Feedly](https://feedly.com/i/subscription/feed/https://victoropp.github.io/feed.xml)
 
-Or copy and paste this feed URL into your favorite reader:  
-`https://victoropp.github.io/feed.xml`
-
 
 > _"Always learning. Always building."_
