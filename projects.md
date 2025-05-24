@@ -35,7 +35,7 @@ Built a robust spam detection model using the UCI Spambase dataset with end-to-e
 **Summary**:  
 Analyzing Airbnb guest reviews across London boroughs to uncover sentiment patterns and customer satisfaction signals.
 
-🔧 Features:
+ Features:
 - Text cleaning, tokenization, and TF-IDF scoring  
 - Keyword analysis per borough  
 - Interactive Altair dashboards  
