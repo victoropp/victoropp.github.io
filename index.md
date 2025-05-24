@@ -85,3 +85,13 @@ Built an intelligent spam classifier using Naive Bayes and hyperparameter tuning
 
 
 > _"Always learning. Always building."_
+>
+> <!-- Newsletter Signup (EmailOctopus Embedded Form) -->
+<div id="newsletter" style="margin-top: 3rem; padding: 2rem; background-color: #f9f9f9; border-radius: 8px;">
+  <h2 style="margin-bottom: 0.5rem;">📬 Stay Updated</h2>
+  <p style="margin-bottom: 1rem;">
+    Subscribe to receive hands-on Data Science projects, tutorials, and AI insights delivered straight to your inbox.
+  </p>
+  <script async src="https://eocampaign1.com/form/e178104e-38a9-11f0-8187-33a20bfb998a.js" data-form="e178104e-38a9-11f0-8187-33a20bfb998a"></script>
+</div>
+
