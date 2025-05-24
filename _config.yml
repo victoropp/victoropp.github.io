@@ -84,6 +84,10 @@ footer:
     - label: "Kaggle"
       icon: "fab fa-fw fa-kaggle"
       url: "https://www.kaggle.com/victoropp"
+    - label: "Feed"
+      icon: "fas fa-fw fa-rss"
+      url: "https://feedly.com/i/subscription/feed/https://victoropp.github.io/feed.xml"
+
 
 
 defaults:
