@@ -55,7 +55,7 @@ I’m **Victor Collins Oppon**, a Chartered Accountant with over 15 years of exp
 
 ---
 
-## Featured Project
+## Featured Projects
 
 ### [Spam Detection in MATLAB](https://github.com/victoropp/naive-bayes-spam-detection)
 A full ML pipeline using Naive Bayes on the UCI Spambase dataset. Includes:
@@ -67,7 +67,18 @@ A full ML pipeline using Naive Bayes on the UCI Spambase dataset. Includes:
 
 ---
 
-## 📬 Join the Mailing List
+### [Wine Clustering with GMM vs KMeans](https://github.com/victoropp/wine-clustering-gmm-kmeans)
+A scientific unsupervised learning project using the UCI Wine dataset to compare Gaussian Mixture Models and KMeans:
+- Auto-selection of cluster count using Elbow, Silhouette, AIC, and BIC  
+- Visualised results using PCA, t-SNE, GMM heatmaps, and entropy plots  
+- Evaluation via ARI, DBI, and Silhouette  
+- Mapped real-world applications across food science, healthcare, and retail  
+- [Kaggle Notebook](Insert your Kaggle link here)  
+- [LinkedIn Article](Insert LinkedIn article link here)
+
+---
+
+##  Join the Mailing List
 
 Stay ahead with monthly updates on Data Science projects, real-world case studies, career tips, and tools you can use.
 
@@ -83,10 +94,10 @@ Stay ahead with monthly updates on Data Science projects, real-world case studie
 
 ## Let’s Connect
 
-📧 victoropp@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/victor-collins-oppon-fcca-mba-bsc-01541019/)  
-📊 [GitHub](https://github.com/victoropp)  
-📘 [Kaggle](https://www.kaggle.com/victoropp)
+ victoropp@gmail.com  
+ [LinkedIn](https://www.linkedin.com/in/victor-collins-oppon-fcca-mba-bsc-01541019/)  
+ [GitHub](https://github.com/victoropp)  
+ [Kaggle](https://www.kaggle.com/victoropp)
 
 ---
 
