@@ -14,6 +14,8 @@ header:
   actions:
     - label: "View on GitHub"
       url: "https://github.com/victoropp/naive-bayes-spam-detection"
+      - label: "View on Kaggle"
+      url: "https://www.kaggle.com/code/victoropp/spam-detection-in-matlab-naive-bayes-classifier/edit"
 ---
 
 ### Introduction
