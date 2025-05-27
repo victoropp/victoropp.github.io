@@ -1,11 +1,19 @@
 ---
+title: "Spam Detection Using Naive Bayes in MATLAB"
+excerpt: "A production-grade implementation of Naive Bayes classification on the UCI Spambase dataset — including kernel tuning, cross-validation, performance metrics, and real-world deployment with MATLAB."
 layout: single
-title: "End-to-End Spam Detection Project in MATLAB"
 date: 2025-05-23
-author: "Victor Collins Oppon"
-categories: [Machine Learning, MATLAB, Projects]
-tags: [MATLAB, Naive Bayes, Spam Detection, Classification, UCI Spambase]
-excerpt: "This post walks through how I built and deployed a real-world spam detection model using MATLAB and the UCI Spambase dataset."
+author_profile: true
+read_time: true
+classes: wide
+tags: [classification, machine-learning, matlab, naive-bayes, spam-detection, nlp, automation, portfolio]
+header:
+  overlay_image: /assets/images/spam-banner.png
+  overlay_filter: 0.25
+  caption: "Spam classification in MATLAB using probabilistic learning"
+  actions:
+    - label: "View on GitHub"
+      url: "https://github.com/victoropp/naive-bayes-spam-detection"
 ---
 
 ### Introduction
