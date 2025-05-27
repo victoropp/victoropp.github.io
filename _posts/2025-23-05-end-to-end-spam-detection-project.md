@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "My First End-to-End Spam Detection Project in MATLAB"
+title: "End-to-End Spam Detection Project in MATLAB"
 date: 2025-05-23
 author: "Victor Collins Oppon"
 categories: [Machine Learning, MATLAB, Projects]
@@ -10,7 +10,7 @@ excerpt: "This post walks through how I built and deployed a real-world spam det
 
 ### Introduction
 
-This post is a deep dive into one of my very first end-to-end machine learning projects — a spam detection system developed using **MATLAB** and trained on the **UCI Spambase** dataset. This project was not just about building a model — it was about applying the complete lifecycle of data science: from data preprocessing and feature selection to hyperparameter tuning, evaluation, and production-level deployment.
+This post is a deep dive into one of my end-to-end machine learning projects — a spam detection system developed using **MATLAB** and trained on the **UCI Spambase** dataset. This project was not just about building a model — it was about applying the complete lifecycle of data science: from data preprocessing and feature selection to hyperparameter tuning, evaluation, and production-level deployment.
 
 As someone transitioning from finance and strategy into data science, I wanted this project to demonstrate more than technical correctness. It had to show clarity, reproducibility, and impact.
 
@@ -41,7 +41,7 @@ The entire project was implemented in MATLAB, and the steps followed are outline
 ### 3. Model Training
 
 - **Classifier**: Naive Bayes using kernel distribution
-- **Optimization**: Tuned kernel type and smoothing width via Bayesian optimization
+- **Optimisation**: Tuned kernel type and smoothing width via Bayesian optimisation
 - **Validation**: 5-fold cross-validation
 
 ### 4. Evaluation
@@ -59,7 +59,7 @@ The entire project was implemented in MATLAB, and the steps followed are outline
 ## Key Features and Enhancements
 
 - **Feature Pruning**: Removed non-informative features to reduce overfitting
-- **Hyperparameter Tuning**: Automatically optimized `Width` and `Kernel` using `fitcnb()`'s built-in optimizer
+- **Hyperparameter Tuning**: Automatically optimised `Width` and `Kernel` using `fitcnb()`'s built-in optimiser
 - **Confidence Intervals**: Bootstrap resampling to quantify the uncertainty in accuracy
 - **Model Comparison**: Benchmarked against logistic regression
 - **Deployment-Ready**: Model saved with `saveLearnerForCoder`, ready for embedding in real-time systems
@@ -79,7 +79,7 @@ The entire project was implemented in MATLAB, and the steps followed are outline
 | AUC               | 0.91582       |
 | 95% CI (Accuracy) | [83.99%, 87.61%] |
 
-These results indicate a well-balanced classifier with strong generalization capability.
+These results indicate a well-balanced classifier with strong generalisation capability.
 
 ---
 
