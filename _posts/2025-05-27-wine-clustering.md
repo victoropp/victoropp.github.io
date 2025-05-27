@@ -33,12 +33,12 @@ By simulating real-world exploration scenarios where ground truth is unknown, th
 
 ## Methodology
 
-To ensure scientific rigor and interpretability, the project followed this structured approach:
+To ensure scientific rigour and interpretability, the project followed this structured approach:
 
 ### 1. Dataset & Preprocessing
 - **Data Source**: UCI Wine Dataset, accessed via `sklearn.datasets.load_wine()`
-- **Features**: 13 numerical descriptors (e.g., alcohol content, flavonoids, color intensity)
-- **Standardization**: Applied `StandardScaler` to normalize scales
+- **Features**: 13 numerical descriptors (e.g., alcohol content, flavonoids, colour intensity)
+- **Standardisation**: Applied `StandardScaler` to normalise scales
 
 ### 2. Cluster Number Selection
 - **Elbow Method**: Based on inertia for KMeans  
@@ -59,7 +59,7 @@ To ensure scientific rigor and interpretability, the project followed this struc
 - **Silhouette Score**: Cluster separation and compactness  
 - **DBI (Davies-Bouldin Index)**: Penalizes overlapping or scattered clusters  
 - **Entropy Analysis**: Quantifies uncertainty in GMM assignments  
-- **Confusion Matrices**: For intuitive understanding of clustering precision
+- **Confusion Matrices**: For an intuitive understanding of clustering precision
 
 ---
 
@@ -96,14 +96,14 @@ This project’s techniques are widely applicable in many fields:
 - **Bioinformatics**: Discovering cell types or gene expression clusters  
 - **Retail & E-commerce**: Customer segmentation for personalization  
 - **Healthcare**: Clustering patients by diagnostic or treatment profiles  
-- **Cybersecurity**: Detecting anomalous user behavior without prior labels
+- **Cybersecurity**: Detecting anomalous user behaviour without prior labels
 
 ---
 
 ## Explore the Code and Notebook
 
-- 🔗 [GitHub Repository](https://github.com/victoropp/wine-clustering-gmm-kmeans)  
-- 🔗 [Kaggle Notebook](https://www.kaggle.com/code/victoropp/clustering-gmm-vs-kmeans-on-wine-dataset)
+-  [GitHub Repository](https://github.com/victoropp/wine-clustering-gmm-kmeans)  
+-  [Kaggle Notebook](https://www.kaggle.com/code/victoropp/clustering-gmm-vs-kmeans-on-wine-dataset)
 
 ---
 
