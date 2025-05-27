@@ -73,8 +73,8 @@ A scientific unsupervised learning project using the UCI Wine dataset to compare
 - Visualised results using PCA, t-SNE, GMM heatmaps, and entropy plots  
 - Evaluation via ARI, DBI, and Silhouette  
 - Mapped real-world applications across food science, healthcare, and retail  
-- [Kaggle Notebook](Insert your Kaggle link here)  
-- [LinkedIn Article](Insert LinkedIn article link here)
+- [Kaggle Notebook](https://www.kaggle.com/code/victoropp/clustering-gmm-vs-kmeans-on-wine-dataset)  
+- [LinkedIn Article](https://www.linkedin.com/pulse/how-i-used-gmm-kmeans-cluster-wine-samples-oppon-fcca-mba-bsc-rfakf/?trackingId=aZ7Z1a%2BAK7JiqMpdJy4w6A%3D%3D)
 
 ---
 
