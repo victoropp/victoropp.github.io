@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Data Science and AI Insights Blog by Victor Collins Oppon - Expert Analysis and Thought Leadership">
+    <title>Blog | Victor Collins Oppon</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <span class="logo-text">VC<span class="accent">.</span>OPPON</span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link active">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content" data-aos="fade-up">
+                <h1 class="page-title">Data Science <span class="gradient-text">Insights</span></h1>
+                <p class="page-subtitle">Exploring the intersection of AI, finance, and business transformation</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Article -->
+    <section class="featured-article">
+        <div class="container">
+            <div class="article-featured glass" data-aos="fade-up">
+                <div class="featured-badge">
+                    <i class="fas fa-star"></i>
+                    Featured Article
+                </div>
+                <div class="article-content">
+                    <div class="article-meta">
+                        <span class="article-category">AI Strategy</span>
+                        <span class="article-date">January 2024</span>
+                        <span class="article-read-time"><i class="fas fa-clock"></i> 8 min read</span>
+                    </div>
+                    <h2 class="article-title">The CFO's Guide to AI: Why Financial Leaders Must Champion Data-Driven Transformation</h2>
+                    <p class="article-excerpt">
+                        As a Chartered Accountant turned Data Scientist, I've witnessed firsthand how AI is revolutionizing 
+                        financial decision-making. This comprehensive guide explores why CFOs must lead AI adoption and 
+                        how to build a successful business case for data science investments.
+                    </p>
+                    <div class="article-tags">
+                        <span class="tag">AI Strategy</span>
+                        <span class="tag">Financial Leadership</span>
+                        <span class="tag">Digital Transformation</span>
+                        <span class="tag">ROI Analysis</span>
+                    </div>
+                    <a href="#" class="read-more-btn">
+                        Read Full Article <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="article-image">
+                    <div class="image-placeholder gradient-1">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Categories -->
+    <section class="blog-categories">
+        <div class="container">
+            <div class="categories-filter" data-aos="fade-up">
+                <button class="category-btn active" data-category="all">All Articles</button>
+                <button class="category-btn" data-category="ai-strategy">AI Strategy</button>
+                <button class="category-btn" data-category="machine-learning">Machine Learning</button>
+                <button class="category-btn" data-category="finance">Finance & Analytics</button>
+                <button class="category-btn" data-category="tutorials">Tutorials</button>
+                <button class="category-btn" data-category="insights">Industry Insights</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="blog-posts">
+        <div class="container">
+            <div class="posts-grid">
+                
+                <!-- Article 1 -->
+                <article class="blog-card glass" data-category="machine-learning" data-aos="fade-up">
+                    <div class="card-header">
+                        <div class="article-image-small gradient-2">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="article-meta">
+                            <span class="category">Machine Learning</span>
+                            <span class="date">Dec 2024</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Building Production-Ready ML Models: Lessons from 50+ Deployments</h3>
+                        <p class="card-excerpt">
+                            From experiment to enterprise: A practical guide to deploying machine learning models 
+                            that actually work in production environments.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">MLOps</span>
+                            <span class="tag">Production</span>
+                            <span class="tag">Best Practices</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="read-time"><i class="fas fa-clock"></i> 6 min</span>
+                            <a href="#" class="read-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="blog-card glass" data-category="ai-strategy" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-header">
+                        <div class="article-image-small gradient-3">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="article-meta">
+                            <span class="category">AI Strategy</span>
+                            <span class="date">Nov 2024</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">AI Ethics in Financial Services: A Practitioner's Perspective</h3>
+                        <p class="card-excerpt">
+                            Navigating the complex landscape of ethical AI implementation in finance, 
+                            with real-world examples and actionable frameworks.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">Ethics</span>
+                            <span class="tag">Finance</span>
+                            <span class="tag">Governance</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="read-time"><i class="fas fa-clock"></i> 10 min</span>
+                            <a href="#" class="read-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="blog-card glass" data-category="tutorials" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-header">
+                        <div class="article-image-small gradient-4">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="article-meta">
+                            <span class="category">Tutorial</span>
+                            <span class="date">Nov 2024</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Advanced Feature Engineering for Time Series Forecasting</h3>
+                        <p class="card-excerpt">
+                            Deep dive into sophisticated techniques for extracting predictive features 
+                            from temporal data, with Python implementations.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Time Series</span>
+                            <span class="tag">Features</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="read-time"><i class="fas fa-clock"></i> 12 min</span>
+                            <a href="#" class="read-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="blog-card glass" data-category="finance" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-header">
+                        <div class="article-image-small gradient-5">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <div class="article-meta">
+                            <span class="category">Finance</span>
+                            <span class="date">Oct 2024</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Democratizing Financial Analytics for African SMEs</h3>
+                        <p class="card-excerpt">
+                            How AI-powered tools can level the playing field for small businesses 
+                            in emerging markets, featuring insights from the Oyemam AI project.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">FinTech</span>
+                            <span class="tag">Africa</span>
+                            <span class="tag">SMEs</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="read-time"><i class="fas fa-clock"></i> 8 min</span>
+                            <a href="#" class="read-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="blog-card glass" data-category="insights" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-header">
+                        <div class="article-image-small gradient-6">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="article-meta">
+                            <span class="category">Industry</span>
+                            <span class="date">Oct 2024</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">The Future of Work: How AI is Reshaping Professional Services</h3>
+                        <p class="card-excerpt">
+                            An analysis of AI's impact on consulting, accounting, and legal services, 
+                            with predictions for the next decade.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">Future of Work</span>
+                            <span class="tag">Professional Services</span>
+                            <span class="tag">Trends</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="read-time"><i class="fas fa-clock"></i> 7 min</span>
+                            <a href="#" class="read-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 6 -->
+                <article class="blog-card glass" data-category="machine-learning" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card-header">
+                        <div class="article-image-small gradient-1">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="article-meta">
+                            <span class="category">ML</span>
+                            <span class="date">Sep 2024</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Achieving 98% Accuracy in Spam Detection: A Technical Deep Dive</h3>
+                        <p class="card-excerpt">
+                            Behind the scenes of building an industry-leading spam detection system 
+                            using ensemble methods and advanced NLP techniques.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">NLP</span>
+                            <span class="tag">Ensemble</span>
+                            <span class="tag">Accuracy</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="read-time"><i class="fas fa-clock"></i> 15 min</span>
+                            <a href="#" class="read-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 7 -->
+                <article class="blog-card glass" data-category="ai-strategy" data-aos="fade-up" data-aos-delay="600">
+                    <div class="card-header">
+                        <div class="article-image-small gradient-2">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="article-meta">
+                            <span class="category">Strategy</span>
+                            <span class="date">Sep 2024</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">From Proof of Concept to Production: Scaling AI in Enterprise</h3>
+                        <p class="card-excerpt">
+                            A comprehensive framework for moving AI projects from experimental 
+                            phase to business-critical production systems.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">Scaling</span>
+                            <span class="tag">Enterprise</span>
+                            <span class="tag">Framework</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="read-time"><i class="fas fa-clock"></i> 9 min</span>
+                            <a href="#" class="read-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 8 -->
+                <article class="blog-card glass" data-category="tutorials" data-aos="fade-up" data-aos-delay="700">
+                    <div class="card-header">
+                        <div class="article-image-small gradient-3">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="article-meta">
+                            <span class="category">Tutorial</span>
+                            <span class="date">Aug 2024</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Graph Databases for AI: Neo4j in Production</h3>
+                        <p class="card-excerpt">
+                            Practical guide to leveraging graph databases for AI applications, 
+                            with real examples from the VisaPath AI project.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">Neo4j</span>
+                            <span class="tag">Graph DB</span>
+                            <span class="tag">Production</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="read-time"><i class="fas fa-clock"></i> 11 min</span>
+                            <a href="#" class="read-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Article 9 -->
+                <article class="blog-card glass" data-category="finance" data-aos="fade-up" data-aos-delay="800">
+                    <div class="card-header">
+                        <div class="article-image-small gradient-4">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="article-meta">
+                            <span class="category">Analytics</span>
+                            <span class="date">Aug 2024</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Building Real-Time Financial Dashboards with Power BI and Python</h3>
+                        <p class="card-excerpt">
+                            Step-by-step guide to creating executive dashboards that provide 
+                            real-time insights for data-driven financial decisions.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Real-time</span>
+                            <span class="tag">Dashboards</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="read-time"><i class="fas fa-clock"></i> 14 min</span>
+                            <a href="#" class="read-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-section" data-aos="fade-up">
+                <button class="btn btn-secondary load-more-btn">
+                    <i class="fas fa-plus"></i>
+                    Load More Articles
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content glass" data-aos="fade-up">
+                <div class="newsletter-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                <h2>Never Miss an Insight</h2>
+                <p>Get the latest data science trends, tutorials, and industry analysis delivered to your inbox weekly.</p>
+                <div class="newsletter-form">
+                    <script async src="https://eocampaign1.com/form/e178104e-38a9-11f0-8187-33a20bfb998a.js" 
+                            data-form="e178104e-38a9-11f0-8187-33a20bfb998a"></script>
+                </div>
+                <div class="newsletter-stats">
+                    <div class="stat">
+                        <span class="stat-number">5K+</span>
+                        <span class="stat-label">Subscribers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">Weekly</span>
+                        <span class="stat-label">Updates</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">No Spam</span>
+                        <span class="stat-label">Promise</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">VC<span class="accent">.</span>OPPON</h3>
+                    <p class="footer-tagline">Architecting Tomorrow's Intelligence</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/victoropp" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/victor-collins-oppon-fcca-mba-bsc-01541019/" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.kaggle.com/victoropp" target="_blank" title="Kaggle">
+                            <i class="fab fa-kaggle"></i>
+                        </a>
+                        <a href="mailto:victoropp@gmail.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="services.html#ai-strategy">AI Strategy</a></li>
+                            <li><a href="services.html#ml-development">ML Development</a></li>
+                            <li><a href="services.html#data-analytics">Data Analytics</a></li>
+                            <li><a href="services.html#training">Training</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="assets/files/Victor_Collins_Oppon_CV.pdf" download>Download CV</a></li>
+                            <li><a href="#newsletter">Newsletter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Victor Collins Oppon. All rights reserved.</p>
+                <p>Built with <span class="heart">❤️</span> and AI</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    
+    <style>
+        /* Page Specific Styles */
+        .featured-article {
+            padding: 80px 0;
+            background: var(--bg-secondary);
+        }
+        
+        .article-featured {
+            padding: 3rem;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .featured-badge {
+            position: absolute;
+            top: 0;
+            left: 3rem;
+            background: var(--gradient-primary);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0 0 15px 15px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .article-meta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .article-category {
+            padding: 0.5rem 1rem;
+            background: rgba(99, 102, 241, 0.1);
+            color: var(--primary-color);
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        
+        .article-date,
+        .article-read-time {
+            color: var(--text-tertiary);
+            font-size: 0.875rem;
+        }
+        
+        .article-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            line-height: 1.3;
+        }
+        
+        .article-excerpt {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+        }
+        
+        .article-tags {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .tag {
+            padding: 0.5rem 1rem;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+        
+        .read-more-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary-color);
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+        }
+        
+        .read-more-btn:hover {
+            color: var(--accent-color);
+            transform: translateX(5px);
+        }
+        
+        .article-image {
+            height: 300px;
+        }
+        
+        .image-placeholder {
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: white;
+        }
+        
+        .blog-categories {
+            padding: 40px 0;
+            background: var(--bg-primary);
+            position: sticky;
+            top: 70px;
+            z-index: 100;
+        }
+        
+        .categories-filter {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            overflow-x: auto;
+        }
+        
+        .category-btn {
+            padding: 0.75rem 1.5rem;
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--glass-border);
+            border-radius: 25px;
+            color: var(--text-secondary);
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        
+        .category-btn:hover,
+        .category-btn.active {
+            background: var(--gradient-primary);
+            color: white;
+            border-color: transparent;
+            transform: translateY(-2px);
+        }
+        
+        .blog-posts {
+            padding: 80px 0;
+        }
+        
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+        
+        .blog-card {
+            padding: 2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .blog-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(99, 102, 241, 0.1);
+        }
+        
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .article-image-small {
+            width: 60px;
+            height: 60px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: white;
+            flex-shrink: 0;
+        }
+        
+        .card-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .card-title {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+        
+        .card-excerpt {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            flex: 1;
+        }
+        
+        .card-tags {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .card-tags .tag {
+            font-size: 0.75rem;
+            padding: 0.25rem 0.75rem;
+        }
+        
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 1rem;
+            border-top: 1px solid var(--glass-border);
+        }
+        
+        .read-time {
+            color: var(--text-tertiary);
+            font-size: 0.875rem;
+        }
+        
+        .read-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+        }
+        
+        .read-link:hover {
+            color: var(--accent-color);
+            transform: translateX(3px);
+        }
+        
+        .load-more-section {
+            text-align: center;
+            margin-top: 3rem;
+        }
+        
+        .load-more-btn {
+            padding: 1rem 2rem;
+        }
+        
+        .newsletter-section {
+            padding: 80px 0;
+            background: var(--bg-secondary);
+        }
+        
+        .newsletter-content {
+            padding: 4rem;
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .newsletter-icon {
+            width: 100px;
+            height: 100px;
+            background: var(--gradient-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            color: white;
+            margin: 0 auto 2rem;
+        }
+        
+        .newsletter-content h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .newsletter-content p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+        
+        .newsletter-stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        
+        .stat-label {
+            font-size: 0.875rem;
+            color: var(--text-tertiary);
+        }
+        
+        /* Gradient variations */
+        .gradient-1 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .gradient-2 { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .gradient-3 { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .gradient-4 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .gradient-5 { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+        .gradient-6 { background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); }
+        
+        @media (max-width: 768px) {
+            .article-featured {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .featured-badge {
+                left: 2rem;
+            }
+            
+            .article-title {
+                font-size: 1.5rem;
+            }
+            
+            .posts-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .newsletter-stats {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+    
+    <script>
+        // Blog filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryButtons = document.querySelectorAll('.category-btn');
+            const blogCards = document.querySelectorAll('.blog-card');
+            
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    button.classList.add('active');
+                    
+                    const category = button.getAttribute('data-category');
+                    
+                    blogCards.forEach(card => {
+                        if (category === 'all' || card.getAttribute('data-category') === category) {
+                            card.style.display = 'flex';
+                            setTimeout(() => {
+                                card.classList.remove('hidden');
+                            }, 10);
+                        } else {
+                            card.classList.add('hidden');
+                            setTimeout(() => {
+                                card.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+            
+            // Load more functionality
+            const loadMoreBtn = document.querySelector('.load-more-btn');
+            loadMoreBtn.addEventListener('click', () => {
+                // Simulate loading more articles
+                loadMoreBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading...';
+                setTimeout(() => {
+                    loadMoreBtn.innerHTML = '<i class="fas fa-plus"></i> Load More Articles';
+                    // In a real implementation, you would fetch more articles here
+                }, 2000);
+            });
+        });
+    </script>
+</body>
+</html>
